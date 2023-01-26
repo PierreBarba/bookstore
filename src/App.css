@@ -1,25 +1,25 @@
-.navHeader{
+.navHeader {
   display: flex;
-  padding: 0px 0px 0px 31px;
+  padding: 0 0 0 31px;
   list-style: none;
-  margin: 0px 66px 0px 0px;
+  margin: 0 66px 0 0;
   justify-content: space-between;
 }
 
-.navList{
+.navList {
   display: flex;
   list-style: none;
   gap: 40px;
 }
 
-.BookFormat{
-list-style: none;
-font-size: large;
+.BookFormat {
+  list-style: none;
+  font-size: large;
 }
 
-.form{
+.form {
   display: flex;
   gap: 15px;
   justify-content: flex-end;
-  margin: 0px 40px 0px 0px;
+  margin: 0 40px 0 0;
 }
