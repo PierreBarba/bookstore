@@ -1,6 +1,8 @@
+const STATUS_INFO = 'bookstore/categories/STATUS_INFO';
+
 const categoriesReducer = (state = [], action) => {
   switch (action.type) {
-    case 'STATUS_INFO':
+    case STATUS_INFO:
       return [
         ...state, action.payload,
       ];
@@ -11,7 +13,7 @@ const categoriesReducer = (state = [], action) => {
 
 export const checkCategories = () => (
   {
-    type: 'ESTATUS_INFO',
+    type: STATUS_INFO,
     payload: 'IN PROGRESS...',
   }
 );
