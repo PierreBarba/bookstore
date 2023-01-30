@@ -1,6 +1,6 @@
 const categoriesReducer = (state = [], action) => {
   switch (action.type) {
-    case 'CHECK_STATUS':
+    case 'STATUS_INFO':
       return [
         ...state, action.payload,
       ];
@@ -11,8 +11,8 @@ const categoriesReducer = (state = [], action) => {
 
 export const checkCategories = () => (
   {
-    type: 'CHECK_STATUS',
-    payload: 'Under construction',
+    type: 'ESTATUS_INFO',
+    payload: 'IN PROGRESS...',
   }
 );
 
