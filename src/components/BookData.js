@@ -6,20 +6,18 @@ const BookData = () => {
   const bookList = useSelector((state) => state.book);
   return (
     <ul>
-      {bookList.map((book) => {
+      {bookList.map((element) => {
         const {
-          id, category, title, author, chapters, currentChapter,
-        } = book;
+          id, category, title, author,
+        } = element;
         return (
           <BookItem
             key={id}
+            id={id}
             category={category}
             title={title}
             author={author}
-            chapters={chapters}
-            currentChapter={currentChapter}
           />
-
         );
       })}
     </ul>
