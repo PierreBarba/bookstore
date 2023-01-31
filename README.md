@@ -68,7 +68,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="Under construction" target="_blank" rel="Under construction">Book Store</a>
+- <p> under construction </p>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
