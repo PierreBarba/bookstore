@@ -63,13 +63,12 @@
 - *Use React.*
 - *Use Redux.*
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="Under construction">back to top</a>)</p>
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="in progres..." target="_blank" rel="noopener noreferrer">Book Store</a>
-
+- <p> under construction </p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
