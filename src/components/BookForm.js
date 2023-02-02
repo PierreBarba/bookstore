@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { useDispatch } from 'react-redux';
-import { newBook } from '../redux/books/book';
+import { attachApiBook } from '../redux/books/book';
 
 const BookForm = () => {
   const dispatch = useDispatch();
@@ -21,8 +21,9 @@ const BookForm = () => {
 
   const submitEvent = (event) => {
     event.preventDefault();
-    dispatch(newBook({
+    dispatch(attachApiBook({
       ...bookInfo,
+      item_id: uuidv4(),
       category: 'romance',
       id: uuidv4(),
     }));
