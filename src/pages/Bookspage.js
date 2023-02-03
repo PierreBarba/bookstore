@@ -4,7 +4,7 @@ import BookForm from '../components/BookForm';
 const BooksPage = () => (
   <div>
     <BookData />
-    <hr />
+    <hr className="line" />
     <BookForm />
   </div>
 
