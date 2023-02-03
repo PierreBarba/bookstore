@@ -68,7 +68,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <p> under construction </p>
+- <a href="https://reac-redux-bookstore1.onrender.com" target="_blank" rel="noopener noreferrer">math-magician</a>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
