@@ -35,8 +35,6 @@
 
 # 📖 [Book Store] <a name="about-project"></a>
 
-*[math-magician]* a Single Page WebApp (API based) that shows a BookStore
-<div align="center">
 
 
 </div>
