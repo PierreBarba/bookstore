@@ -12,20 +12,23 @@ export default function App() {
   return (
 
     <>
-      <nav className="nav">
-        <div className="navHeader">
-          <h1 className="navTitle">Bookstore CMS</h1>
-          <ul className="navList">
+      <div id="root">
+        <nav className="nav-bar">
+          <h1 className="nav-brand">Bookstore CMS</h1>
+          <ul className="nav-links">
             <li className="listItem"><Link className="listLink" to="/"> Books </Link></li>
             <li className="listItem"><Link className="listLink" to="/Pages/Categories">  Categories </Link></li>
           </ul>
-        </div>
-      </nav>
+          <button className="icon-button" type="button">
+            <span className="material-icons">person</span>
+          </button>
+        </nav>
 
-      <Routes>
-        <Route path="/" element={<BooksPage />} />
-        <Route path="/Pages/Categories" element={<Categories />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<BooksPage />} />
+          <Route path="/Pages/Categories" element={<Categories />} />
+        </Routes>
+      </div>
     </>
   );
 }
