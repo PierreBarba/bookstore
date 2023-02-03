@@ -38,8 +38,6 @@
 *[math-magician]* a Single Page WebApp (API based) that shows a BookStore
 <div align="center">
 
-  <img src="inprogress..." alt="Screenshoot" width="550"  height="auto" />
-  <br/>
 
 </div>
 
